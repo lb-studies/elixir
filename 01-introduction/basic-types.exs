@@ -1,23 +1,23 @@
 # integer
-_ = 1
+IO.puts(1)
 
 # integer
-_ = 0x1F
+IO.puts(0x1F)
 
 # float
-_ = 1.0
+IO.puts(1.0)
 
 # boolean
-_ = true
+IO.puts(true)
 
 # atom / symbol
-_ = :atom
+IO.puts(:atom)
 
 # string
-_ = "elixir"
+IO.puts("elixir")
 
 # list
-_ = [1, 2, 3]
+IO.inspect([1, 2, 3])
 
 # tuple
-_ = {1, 2, 3}
+IO.inspect({1, 2, 3})
